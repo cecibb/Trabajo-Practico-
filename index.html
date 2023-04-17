@@ -16,81 +16,111 @@
 </head>
 
 <body class="color">
-    <div class="container">
-        <header class="flex-wrap justify-content-center col-sm-12 col-mb-6 col-xl-12">
 
-            <h1 class="text-wrap mb-12">Grup<span>o</span> 4</h1>
-            <ul class="nav nav-pills">
-                <li><a href="#" class="nav-link text-white">Inicio</a></li>
-                <li><a href="#" class="nav-link text-white">Servicios</a></li>
-                <li><a href="#" class="nav-link text-white">Sobre mi</a></li>
-                <li><a href="#" class="nav-link text-white">Portafolio</a></li>
-                <li> <a href="#" class="nav-link text-white">Contactarse</a></li>
-            </ul>
-        </header>
-    </div>
+    <header id="Inicio" class="flex-wrap justify-content-center col-sm-12 col-mb-6 col-xl-12">
 
-
+        <h1 class="text-wrap mb-12" style="font-weight: bolder;">Grup<span>o</span> 4</h1>
+        <ul class="nav nav-pills">
+            <li><a href="#Inicio" class="nav-link text-white">Inicio</a></li>
+            <li><a href="#SobreMi" class="nav-link text-white">Sobre mi</a></li>
+            <li><a href="#Servicios" class="nav-link text-white">Servicios</a></li>
+            <li><a href="#" class="nav-link text-white">Portafolio</a></li>
+            <li> <a href="#Contactarse" class="nav-link text-white">Contactarse</a></li>
+        </ul>
     </header>
+
+
+
 
     <main>
 
-        <div class="parte1">
+        <div id="SobreMi" class="parte1">
             <div class="contenidoParte1">
-                <h1>Hola, soy Mateo, <br>un desarrollador web</h1>
-                <h2>Me gusta hacer aplicaciones de desarrollo web y<br>darles vida usando codigo y diseÃ±o movil</h2>
-                <button>Creator journey</button>
+                <h1>Hola, soy Santiago Boyadjian, <br>un analista en sistemas</h1>
+                <h2>Me gusta hacer sistemas operativos,<br>aplicaciones para computadoras y<br>dar vida a paginas web</h2>
+                <button>Viaje del creador</button>
             </div>
 
             <div class="iconos">
                 <i class="fa-solid fa-circle"></i>
-                <i class="fa-sharp fa-regular fa-pipe"></i>
+                <span class="lineaVertical"></span>
                 <i class="fa-regular fa-circle"></i>
-                <i class="fa-sharp fa-regular fa-pipe"></i>
+                <span class="lineaVertical"></span>
                 <i class="fa-regular fa-circle"></i>
             </div>
 
         </div>
 
-        <div class="parte2">
+        <div id="Servicios" class="parte2">
             <div class="contenidoParte2 col-sm-8">
-                <h3 class="dos">Servicios</h3>
-                <h1 class="tres">Habilidades</h1>
-                <i class="fa-solid fa-horizontal-rule"></i>
-                <div class="cuatro">
-                    <div class="caja caja1">1</div>
-                    <div class="caja caja2">2</div>
-                    <div class="caja caja3">3</div>
-                    <div class="caja caja4">4</div>
-                    <div class="caja caja5">5</div>
-                    <div class="caja caja6">6</div>
+                <h3 class="tituloServicios">Servicios</h3>
+                <h1 class="habilidades">Habilidades</h1>
+                <span class="barraServicios"></span>
+                <div class="cajasDeHabilidades">
+                    <div class="caja caja1">
+                        <i class="fa-brands fa-github iconosHabilidades contenidoCaja"></i>
+                        <br>
+                        <p class="contenidoCaja tituloCaja">Control de Git</p>
+                        <p class="contenidoCaja">Amplia experiencia usando git y sus herramientas para el versionado de codigo.</p>
+                    </div>
+                    <div class="caja caja2">
+                        <i class="fa-solid fa-globe iconosHabilidades contenidoCaja"></i>
+                        <br>
+                        <p class="contenidoCaja tituloCaja">Desarrollo Web</p>
+                        <p class="contenidoCaja">Conocimiento sobre el Desarrollo Web en sus extensas ramas.</p>
+                    </div>
+                    <div class="caja caja3">
+                        <i class="fa-solid fa-people-group iconosHabilidades contenidoCaja"></i>
+                        <br>
+                        <p class="contenidoCaja tituloCaja">Trabajo en equipo</p>
+                        <p class="contenidoCaja">Me encanta trabajar en equipo y poder compartir conocimiento con mis compañeros.</p>
+                    </div>
+                    <div class="caja caja4">
+                        <i class="fa-solid fa-microchip iconosHabilidades contenidoCaja"></i>
+                        <br>
+                        <p class="contenidoCaja tituloCaja">Sistemas Operativos</p>
+                        <p class="contenidoCaja">Participe en la creacion de sistemas operativos en base linux.</p>
+                    </div>
+                    <div class="caja caja5">
+                        <i class="fa-solid fa-laptop-code iconosHabilidades contenidoCaja"></i>
+                        <br>
+                        <p class="contenidoCaja tituloCaja">Multiples Lenguajes</p>
+                        <p class="contenidoCaja">Conozco muchos lenguajes de programacion. C, C++, Haskell, Prolog, Wollok y un poco de
+                            Assembler.</p>
+                    </div>
+                    <div class="caja caja6">
+                        <i class="fa-solid fa-bolt iconosHabilidades contenidoCaja"></i>
+                        <br>
+                        <p class="contenidoCaja tituloCaja">Tecnico en Electronica</p>
+                        <p class="contenidoCaja">Poseo amplio conocimiento sobre la electronica, por lo tanto de componentes de computadoras.</p>
+                    </div>
                 </div>
             </div>
 
             <div class="iconos">
                 <i class="fa-regular fa-circle"></i>
-                <i class="fa-sharp fa-regular fa-pipe"></i>
+                <span class="lineaVertical"></span>
                 <i class="fa-solid fa-circle"></i>
-                <i class="fa-sharp fa-regular fa-pipe"></i>
+                <span class="lineaVertical"></span>
                 <i class="fa-regular fa-circle"></i>
             </div>
         </div>
 
-        <div class="parte3">
+        <div id="Contactarse" class="parte3">
             <div class="contenidoParte3">
                 <h1 style="color: #FC4C59; font-size: 50px">Contactarse conmigo</h1>
                 <form>
-                    <input type="email" name="email" id="email" placeholder="Email" style="background-color: #2B2E41;">
+                    <input type="email" name="email" id="email" placeholder="Email" style="background-color: #2B2E41; font-weight: bolder">
                     <input type="text" name="Message" id="Message" placeholder="Message"
-                        style="background-color: #2B2E41;">
+                        style="background-color: #2B2E41; font-weight: bolder" >
                 </form>
             </div>
 
             <div class="iconos">
                 <i class="fa-regular fa-circle"></i>
-                <i class="fa-sharp fa-regular fa-pipe"></i>
+                <span class="lineaVertical"></span>
                 <i class="fa-regular fa-circle"></i>
-                <i class="fa-sharp fa-regular fa-pipe"></i>
+                <span class="lineaVertical"></span>
                 <i class="fa-solid fa-circle"></i>
             </div>
 
@@ -99,7 +129,6 @@
 
     </main>
 
-    <footer>
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <span class="mb-3 mb-md-0 text-muted">© 2023 Trabajo Integrador</span>

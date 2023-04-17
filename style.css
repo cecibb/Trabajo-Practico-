@@ -5,18 +5,18 @@
     padding: 0;
 }
 
-h1{
+h1 {
     color: white;
     font-family: 'PT Sans', sans-serif;
 }
 
-h2{
+h2 {
     color: white;
     font-family: 'PT Sans', sans-serif;
     font-weight: lighter;
 }
 
-.color{
+.color {
     background-color: #212236;
 }
 
@@ -29,20 +29,17 @@ header {
 }
 
 .nav-pills {
-    margin-left:auto;
-    display:inline-flex;
-    flex-direction:row;
-    
+    margin-left: auto;
+    display: inline-flex;
+    flex-direction: row;
+
     align-items: center;
     margin-right: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;   
 }
 
-.button{
+.button {
     font-family: 'PT Sans', sans-serif;
     color: green
-
 }
 
 body header div h2 {
@@ -62,13 +59,13 @@ body header h1 span {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     margin-left: 300px;
 }
 
 .contenidoParte1 h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .contenidoParte1 h2 {
@@ -87,6 +84,7 @@ body header h1 span {
 }
 
 .iconos {
+    font-size: 25px;
     margin-left: 500px;
     display: flex;
     flex-direction: column;
@@ -95,13 +93,18 @@ body header h1 span {
     color: #FC4C59;
 }
 
+.iconosHabilidades {
+    font-size: 40px;
+    color: #FC4C59;
+}
+
 .parte2 {
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     margin-left: 300px;
 }
 
@@ -119,36 +122,44 @@ body header h1 span {
     background-color: #2B2E41;
     margin-right: 60px;
     margin-bottom: 30px;
-    margin-bottom: 30px;
-    text-align: center;
+    text-align: start;
     width: 250px;
     height: 250px;
-
 }
 
-.dos{
+.contenidoCaja {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tituloServicios {
     color: white;
     font-size: 30px;
 }
 
-.tres {
+.habilidades {
     color: #FC4C59;
-    font-size: 60px;
+    font-size: 70px;
+    font-weight: bolder;
     margin-bottom: 30px;
 }
 
-.cuatro {
-    display: flex;
-    flex-wrap: wrap;}
-
-.fa-horizontal-rule {
+.barraServicios {
     color: #FC4C59;
+    margin-bottom: 30px;
+    border-bottom: 8px solid #FC4C59;
+    width: 200px;
+    margin-bottom: 50px;
 }
 
-.container {
+.cajasDeHabilidades {
     display: flex;
     flex-wrap: wrap;
+}
 
+.tituloCaja{
+    font-weight: bolder;
 }
 
 .parte3 {
@@ -156,12 +167,12 @@ body header h1 span {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 200px;
     margin-left: 300px;
 }
 
-.contenidoParte3 form input{
+.contenidoParte3 form input {
     border-style: none;
     width: 650px;
     height: 80px;
@@ -173,9 +184,16 @@ body header h1 span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 ::placeholder {
     color: #1C1F32;
+}
+
+
+
+.lineaVertical {
+    border-bottom: 35px solid white;
+    border-top: 35px solid white;
+    width: 1px;
 }
