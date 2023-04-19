@@ -1,23 +1,22 @@
 <h1 align="center">Hola 👋, Somos el grupo 4</h1>
 <h3 align="center">Futuros desarrolladores web y con ganas de seguir aprendiendo para mejor desempeño en el trabajo.</h3>
 
-<p align="left"> <a href="https://twitter.com/cecilia pastor" target="blank"><img src="https://img.shields.io/twitter/follow/cecilia pastor?logo=twitter&style=for-the-badge" alt="cecilia pastor" /></a> </p>
+<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
 - 🔭 Actualmente trabajando en [el Trabajo Practico Integrador UTN](https://github.com/cecibb/Trabajo-Practico-)
 
-- Es necesario tener instalado el Visual Studio Code para visualizar la página con las siguientes extensiones: **Live server**
+- Nos basamos en un portafolio de diseño sencillo pero con colores llamativos para llamar la atención del usuario: **https://www.behance.net/gallery/97205839/Developer-Portfolio-Design**
 
-- Nos basamos en un portafolio de diseño sencillo pero con colores llamativos para llamar la atención del usuario [https://www.behance.net/gallery/97205839/Developer-Portfolio-Design](https://www.behance.net/gallery/97205839/Developer-Portfolio-Design)
+- Incluimos HTML, CSS y Bootstrap para nuestro proyecto donde decidimos crear una página web exponiendo las habilidades de uno de los integrantes del grupo, con una página Web aumenta la posibilidad de conseguir oportunidades de trabajo y/o entrevistas [https://www.behance.net/gallery/97205839/Developer-Portfolio-Design](https://www.behance.net/gallery/97205839/Developer-Portfolio-Design)
 
-- 👨‍💻 Mis proyectos los puedes ver en [https://github.com/cecibb](https://github.com/cecibb)
+- Es necesario tener instalado el Visual Studio Code para visualizar la página con las siguientes extensiones: **Live Server**
 
-- Pueden contactarnos a través de los respectivos mails de cada integrante: **Ceci.Belen13@gmail.com - albornozluana00@gmail.com - albornozluana00@gmail.com**
+- Pueden contactarnos a través de los respectivos mails de cada integrante: **Ceci.Belen13@gmail.com -boyadjiansantiago@gmail.com - albornozluana00@gmail.com**
 
 - ⚡ Fun fact **Nos gusta trabajar en equipo, nos consideramos divertidos.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/cecilia pastor" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="cecilia pastor" height="30" width="40" /></a>
 <a href="https://discord.gg/Cecibb #5242" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Cecibb #5242" height="30" width="40" /></a>
 </p>
 
@@ -26,4 +25,4 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=cecibb&show_icons=true&locale=en&layout=compact" alt="cecibb" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cecibb&show_icons=true&locale=en" alt="cecibb" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cecibb&show_icons=true&locale=en" alt="cecibb" /></p>>
