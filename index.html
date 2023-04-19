@@ -17,16 +17,17 @@
 
 <body class="color">
 
-    <header id="Inicio" class="flex-wrap justify-content-center col-sm-12 col-mb-6 col-xl-12">
-
-        <h1 class="text-wrap mb-12" style="font-weight: bolder;">Grup<span>o</span> 4</h1>
-        <ul class="nav nav-pills">
-            <li><a href="#Inicio" class="nav-link text-white">Inicio</a></li>
-            <li><a href="#SobreMi" class="nav-link text-white">Sobre mi</a></li>
-            <li><a href="#Servicios" class="nav-link text-white">Servicios</a></li>
-            <li><a href="#" class="nav-link text-white">Portafolio</a></li>
-            <li> <a href="#Contactarse" class="nav-link text-white">Contactarse</a></li>
-        </ul>
+    <header id="Inicio">
+        <div class="col-sm-12 col-mb-6 col-xl-12 contenidoHeader">
+            <h1 class="text-wrap mb-12 tituloHeader" style="font-weight: bolder;">Grup<span>o</span> 4</h1>
+            <ul class="nav listaHeader">
+                <span class="lineaHorizontal"></span>
+                <li><a href="#Inicio" class="nav-link text-white">Inicio</a></li>
+                <li><a href="#SobreMi" class="nav-link text-white">Sobre mi</a></li>
+                <li><a href="#Servicios" class="nav-link text-white">Servicios</a></li>
+                <li> <a href="#Contactarse" class="nav-link text-white">Contactarse</a></li>
+            </ul>
+        </div>
     </header>
 
 
@@ -36,11 +37,12 @@
 
         <div id="SobreMi" class="parte1">
             <div class="contenidoParte1">
-                <h1>Hola, soy Santiago Boyadjian, <br>un analista en sistemas</h1>
-                <h2>Me gusta hacer sistemas operativos,<br>aplicaciones para computadoras y<br>dar vida a paginas web</h2>
-                <button>Viaje del creador</button>
+                <h1 class="tituloSobreMi">Hola, soy Santiago Boyadjian, <br>analista en sistemas</h1>
+                <h2 class="descripcionSobreMi">Me gusta hacer sistemas operativos, aplicaciones para computadoras y dar
+                    vida a paginas web
+                </h2>
+                <a href="cv.pdf" download="cv"><button>Curriculum Vitae</button></a>
             </div>
-
             <div class="iconos">
                 <i class="fa-solid fa-circle"></i>
                 <span class="lineaVertical"></span>
@@ -48,7 +50,6 @@
                 <span class="lineaVertical"></span>
                 <i class="fa-regular fa-circle"></i>
             </div>
-
         </div>
 
         <div id="Servicios" class="parte2">
@@ -61,7 +62,8 @@
                         <i class="fa-brands fa-github iconosHabilidades contenidoCaja"></i>
                         <br>
                         <p class="contenidoCaja tituloCaja">Control de Git</p>
-                        <p class="contenidoCaja">Amplia experiencia usando git y sus herramientas para el versionado de codigo.</p>
+                        <p class="contenidoCaja">Amplia experiencia usando git y sus herramientas para el versionado de
+                            codigo.</p>
                     </div>
                     <div class="caja caja2">
                         <i class="fa-solid fa-globe iconosHabilidades contenidoCaja"></i>
@@ -73,7 +75,8 @@
                         <i class="fa-solid fa-people-group iconosHabilidades contenidoCaja"></i>
                         <br>
                         <p class="contenidoCaja tituloCaja">Trabajo en equipo</p>
-                        <p class="contenidoCaja">Me encanta trabajar en equipo y poder compartir conocimiento con mis compañeros.</p>
+                        <p class="contenidoCaja">Me encanta trabajar en equipo y poder compartir conocimiento con mis
+                            compañeros.</p>
                     </div>
                     <div class="caja caja4">
                         <i class="fa-solid fa-microchip iconosHabilidades contenidoCaja"></i>
@@ -85,18 +88,19 @@
                         <i class="fa-solid fa-laptop-code iconosHabilidades contenidoCaja"></i>
                         <br>
                         <p class="contenidoCaja tituloCaja">Multiples Lenguajes</p>
-                        <p class="contenidoCaja">Conozco muchos lenguajes de programacion. C, C++, Haskell, Prolog, Wollok y un poco de
+                        <p class="contenidoCaja">Conozco muchos lenguajes de programacion. C, C++, Haskell, Prolog,
+                            Wollok y un poco de
                             Assembler.</p>
                     </div>
                     <div class="caja caja6">
                         <i class="fa-solid fa-bolt iconosHabilidades contenidoCaja"></i>
                         <br>
                         <p class="contenidoCaja tituloCaja">Tecnico en Electronica</p>
-                        <p class="contenidoCaja">Poseo amplio conocimiento sobre la electronica, por lo tanto de componentes de computadoras.</p>
+                        <p class="contenidoCaja">Poseo amplio conocimiento sobre la electronica, por lo tanto de
+                            componentes de computadoras.</p>
                     </div>
                 </div>
             </div>
-
             <div class="iconos">
                 <i class="fa-regular fa-circle"></i>
                 <span class="lineaVertical"></span>
@@ -104,41 +108,59 @@
                 <span class="lineaVertical"></span>
                 <i class="fa-regular fa-circle"></i>
             </div>
-        </div>
-
-        <div id="Contactarse" class="parte3">
-            <div class="contenidoParte3">
-                <h1 style="color: #FC4C59; font-size: 50px">Contactarse conmigo</h1>
-                <form>
-                    <input type="email" name="email" id="email" placeholder="Email" style="background-color: #2B2E41; font-weight: bolder">
-                    <input type="text" name="Message" id="Message" placeholder="Message"
-                        style="background-color: #2B2E41; font-weight: bolder" >
-                </form>
-            </div>
-
-            <div class="iconos">
-                <i class="fa-regular fa-circle"></i>
-                <span class="lineaVertical"></span>
-                <i class="fa-regular fa-circle"></i>
-                <span class="lineaVertical"></span>
-                <i class="fa-solid fa-circle"></i>
-            </div>
 
         </div>
-
 
     </main>
 
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+
+    <div id="Contactarse" class="parte3">
+        <div class="contenidoParte3">
+            <h1 style="color: #FC4C59; font-size: 50px">Contactarme</h1>
+            <form>
+                <input class="colocarMail" type="email" name="email" id="email" placeholder="  Email"
+                    style="background-color: #2B2E41; font-weight: bolder">
+                <input class="enviarMensaje" type="text" name="Message" id="Message" placeholder="  Message"
+                    style="background-color: #2B2E41; font-weight: bolder">
+                <br><button class="enviar" type="submit" style="border-style: none;">Enviar</button>
+            </form>
+        </div>
+
+        <div class="iconos">
+            <i class="fa-regular fa-circle"></i>
+            <span class="lineaVertical"></span>
+            <i class="fa-regular fa-circle"></i>
+            <span class="lineaVertical"></span>
+            <i class="fa-solid fa-circle"></i>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <span class="mb-3 mb-md-0 text-muted">© 2023 Trabajo Integrador</span>
             </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"></li>
-                <li class="ms-3"></li>
-                <li class="ms-3"></li>
+            <ul class="nav col-md-4 justify-content-end iconosContacto">
+                <li class="ms-3">
+                    <a href="https://www.facebook.com/santiago.boyadjian?mibextid=ZbWKwL">
+                        <i class="fa-brands fa-facebook" style="color: #FC4C59;font-size: 22px;"></i></a>
+                </li>
+                <li class="ms-3">
+                    <a href="https://github.com/SantiagoBoyadjian">
+                        <i class="fa-brands fa-discord" style="color: #FC4C59;font-size: 22px;"></i></a>
+                </li>
+                <li class="ms-3">
+                    <a href="https://instagram.com/santi_boya?igshid=ZDdkNTZiNTM=">
+                        <i class="fa-brands fa-twitter" style="color: #FC4C59;font-size: 22px;"></i></a>
+                </li>
             </ul>
-        </footer>
+        </div>
+
+    </footer>
 
 
 
